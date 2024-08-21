@@ -10,6 +10,11 @@ int player_life;
 int comlife;
 int total;
 
+void loadgame();
+void player_turn();
+void comturn();
+void Shootyourself();
+void Shootcom();
 
  void loadgame(int level)
 {   srand(time(0));
