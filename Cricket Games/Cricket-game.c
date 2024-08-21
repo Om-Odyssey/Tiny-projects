@@ -9,6 +9,11 @@ int ball;
 int score;
 int wickets;
 
+void toss();
+void bowling();
+void batting();
+void result();
+
 void toss()
 {
     srand(time(0));  

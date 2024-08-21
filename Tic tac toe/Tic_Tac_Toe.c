@@ -8,6 +8,11 @@ bool pcmove = false;
 bool win = false;
 int size;
 
+void printboard();
+void space();
+void check_winner();
+void playermove();
+void pcmover();
 
 void printboard()
 {
